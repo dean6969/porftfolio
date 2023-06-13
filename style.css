@@ -431,3 +431,35 @@ footer {
 footer p {
   text-align: center;
 }
+
+.container {
+  display: grid;
+  justify-items: start;
+  gap: 2rem;
+}
+
+[data-typewriter] {
+  font-family: system-UI;
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: rgb(85, 85, 85);
+  height: 2rem;
+  border-right: .8rem solid transparent;
+  padding: .6rem;
+  margin-bottom: 20px;
+}
+
+[data-typewriter]:not(.typing){
+  animation: blink-caret 2.1s step-end infinite;
+}
+
+@keyframes blink-caret {
+  0%,
+  100% {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: rgb(85, 85, 85);
+  }
+}
