@@ -19,6 +19,10 @@ p {
   color: rgb(85, 85, 85);
 }
 
+.onlyp {
+  text-align: justify;
+}
+
 /* TRANSITION */
 
 a,
@@ -290,7 +294,7 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: 4.5rem;
 }
 
 .details-container {
@@ -323,7 +327,7 @@ section {
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   margin-bottom: 2rem;
 }
 
